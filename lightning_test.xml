@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet>
+<avgRespTimeTest>
+<testName>Test #1</testName>
+<description>Verify account register</description>
+<transactionName>Launch_Homepage</transactionName>
+<regexp/>
+<maxAvgRespTime>2500</maxAvgRespTime>
+</avgRespTimeTest>
+</testSet>
