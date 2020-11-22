@@ -1,0 +1,401 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1605981266229,3866,Launch_Homepage,200,OK,Thread Group 1-1,text,true,,4683,569,1,1,https://demo.opencart.com/,3616,0,2634
+1605981270151,1360,Launch_Homepage1,200,OK,Thread Group 1-1,text,true,,4301,704,1,1,https://demo.opencart.com/,1152,0,248
+1605981265056,5226,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8984,1273,1,1,null,4768,1234,2882
+1605981274518,1597,Register,200,OK,Thread Group 1-1,text,true,,4756,748,2,2,https://demo.opencart.com/index.php?route=account/register,1394,0,163
+1605981275053,1389,Launch_Homepage,200,OK,Thread Group 1-2,text,true,,4624,569,2,2,https://demo.opencart.com/,1175,0,277
+1605981276445,1079,Launch_Homepage1,200,OK,Thread Group 1-2,text,true,,4265,704,2,2,https://demo.opencart.com/,874,0,0
+1605981275052,2468,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8889,1273,2,2,null,2049,5,277
+1605981279127,992,ClickOnRegister,200,OK,Thread Group 1-1,text,true,,547,715,2,2,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,972,0,160
+1605981271518,2589,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5303,1463,2,2,null,2366,6012,323
+1605981280527,1237,Register,200,OK,Thread Group 1-2,text,true,,4787,748,2,2,https://demo.opencart.com/index.php?route=account/register,1034,0,167
+1605981283110,1346,Register_form,200,OK,Thread Group 1-1,text,true,,4802,1881,2,2,https://demo.opencart.com/index.php?route=account/register,1168,0,200
+1605981284460,1085,Register_Success,200,OK,Thread Group 1-1,text,true,,3412,807,3,3,https://demo.opencart.com/index.php?route=account%2Fsuccess,876,0,0
+1605981280120,2431,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8214,2688,3,3,null,2044,2997,200
+1605981284760,1043,ClickOnRegister,200,OK,Thread Group 1-2,text,true,,547,715,3,3,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1009,0,169
+1605981277526,2280,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,5334,1463,3,3,null,2043,5999,336
+1605981285000,1353,Launch_Homepage,200,OK,Thread Group 1-3,text,true,,4587,569,3,3,https://demo.opencart.com/,1140,0,245
+1605981286362,1104,Launch_Homepage1,200,OK,Thread Group 1-3,text,true,,4253,704,3,3,https://demo.opencart.com/,898,0,0
+1605981284998,2457,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8840,1273,3,3,null,2038,14,245
+1605981285550,2095,Navigating_Account_Page,200,OK,Thread Group 1-1,text,true,,4046,1556,3,3,https://demo.opencart.com/index.php?route=account/login,1013,0,166
+1605981285550,1013,Navigating_Account_Page-0,302,Found,Thread Group 1-1,text,true,,562,780,3,3,https://demo.opencart.com/index.php?route=account%2Faccount,1013,0,166
+1605981286567,1078,Navigating_Account_Page-1,200,OK,Thread Group 1-1,text,true,,3484,776,3,3,https://demo.opencart.com/index.php?route=account/login,868,0,0
+1605981285549,2095,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4046,1556,3,3,null,1013,3,166
+1605981287649,1230,Logout_1,200,OK,Thread Group 1-1,text,true,,3358,779,3,3,https://demo.opencart.com/index.php?route=account%2Flogout,1028,0,161
+1605981288884,1074,Logout_2,200,OK,Thread Group 1-1,text,true,,3355,779,3,3,https://demo.opencart.com/index.php?route=account%2Flogout,867,0,0
+1605981287648,2304,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,6713,1558,3,3,null,1895,7,161
+1605981288825,1316,Register_form,200,OK,Thread Group 1-2,text,true,,4830,1914,3,3,https://demo.opencart.com/index.php?route=account/register,1102,0,169
+1605981290147,1093,Register_Success,200,OK,Thread Group 1-2,text,true,,3368,807,3,3,https://demo.opencart.com/index.php?route=account%2Fsuccess,872,0,0
+1605981285808,2409,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8198,2721,3,3,null,1974,3026,169
+1605981289962,1471,Launch_Homepage,200,OK,Thread Group 1-1,text,true,,4309,698,3,3,https://demo.opencart.com/,1265,0,276
+1605981290460,1265,Register,200,OK,Thread Group 1-3,text,true,,4782,748,3,3,https://demo.opencart.com/index.php?route=account/register,1056,0,165
+1605981291434,1156,Launch_Homepage1,200,OK,Thread Group 1-1,text,true,,4296,704,3,3,https://demo.opencart.com/,951,0,0
+1605981289959,2627,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8605,1402,3,3,null,2216,7,276
+1605981291245,2099,Navigating_Account_Page,200,OK,Thread Group 1-2,text,true,,4046,1556,3,3,https://demo.opencart.com/index.php?route=account/login,1008,0,165
+1605981291245,1008,Navigating_Account_Page-0,302,Found,Thread Group 1-2,text,true,,562,780,3,3,https://demo.opencart.com/index.php?route=account%2Faccount,1008,0,165
+1605981292254,1090,Navigating_Account_Page-1,200,OK,Thread Group 1-2,text,true,,3484,776,3,3,https://demo.opencart.com/index.php?route=account/login,879,0,0
+1605981291244,2099,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4046,1556,3,3,null,1008,3,165
+1605981293347,1251,Logout_1,200,OK,Thread Group 1-2,text,true,,3375,779,3,3,https://demo.opencart.com/index.php?route=account%2Flogout,1043,0,172
+1605981294602,1058,Logout_2,200,OK,Thread Group 1-2,text,true,,3360,779,4,4,https://demo.opencart.com/index.php?route=account%2Flogout,855,0,0
+1605981293347,2309,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,6735,1558,4,4,null,1898,7,172
+1605981294726,1041,ClickOnRegister,200,OK,Thread Group 1-3,text,true,,547,715,4,4,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1005,0,164
+1605981287470,2306,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,5329,1463,4,4,null,2061,5992,329
+1605981294996,1368,Launch_Homepage,200,OK,Thread Group 1-4,text,true,,4661,569,4,4,https://demo.opencart.com/,1155,0,266
+1605981295607,1264,Register,200,OK,Thread Group 1-1,text,true,,4790,748,4,4,https://demo.opencart.com/index.php?route=account/register,1058,0,169
+1605981295668,1345,Launch_Homepage,200,OK,Thread Group 1-2,text,true,,4257,698,4,4,https://demo.opencart.com/,1138,0,264
+1605981296369,1102,Launch_Homepage1,200,OK,Thread Group 1-4,text,true,,4264,704,4,4,https://demo.opencart.com/,891,0,0
+1605981294992,2470,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8925,1273,4,4,null,2046,10,266
+1605981297015,1086,Launch_Homepage1,200,OK,Thread Group 1-2,text,true,,4253,704,4,4,https://demo.opencart.com/,881,0,0
+1605981295665,2431,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8510,1402,4,4,null,2019,8,264
+1605981298771,1295,Register_form,200,OK,Thread Group 1-3,text,true,,4835,1892,4,4,https://demo.opencart.com/index.php?route=account/register,1089,0,165
+1605981299874,996,ClickOnRegister,200,OK,Thread Group 1-1,text,true,,547,715,4,4,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,975,0,161
+1605981292594,2260,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5337,1463,4,4,null,2033,6017,330
+1605981300070,1084,Register_Success,200,OK,Thread Group 1-3,text,true,,3373,807,4,4,https://demo.opencart.com/index.php?route=account%2Fsuccess,876,0,0
+1605981295770,2379,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8208,2699,4,4,null,1965,3008,165
+1605981300474,1243,Register,200,OK,Thread Group 1-4,text,true,,4760,748,4,4,https://demo.opencart.com/index.php?route=account/register,1029,0,156
+1605981301104,1262,Register,200,OK,Thread Group 1-2,text,true,,4728,748,4,4,https://demo.opencart.com/index.php?route=account/register,1050,0,163
+1605981301158,2073,Navigating_Account_Page,200,OK,Thread Group 1-3,text,true,,4089,1556,4,4,https://demo.opencart.com/index.php?route=account/login,1010,0,158
+1605981301158,1010,Navigating_Account_Page-0,302,Found,Thread Group 1-3,text,true,,562,780,4,4,https://demo.opencart.com/index.php?route=account%2Faccount,1010,0,158
+1605981302169,1062,Navigating_Account_Page-1,200,OK,Thread Group 1-3,text,true,,3527,776,4,4,https://demo.opencart.com/index.php?route=account/login,859,0,0
+1605981301157,2073,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4089,1556,4,4,null,1010,3,158
+1605981303234,1225,Logout_1,200,OK,Thread Group 1-3,text,true,,3324,779,4,4,https://demo.opencart.com/index.php?route=account%2Flogout,1022,0,167
+1605981303858,1350,Register_form,200,OK,Thread Group 1-1,text,true,,4893,1837,5,5,https://demo.opencart.com/index.php?route=account/register,1141,0,185
+1605981304460,1064,Logout_2,200,OK,Thread Group 1-3,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,857,0,0
+1605981303233,2289,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,6648,1558,5,5,null,1879,4,167
+1605981304717,1016,ClickOnRegister,200,OK,Thread Group 1-4,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,992,0,162
+1605981297474,2259,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,5307,1463,5,5,null,2021,6002,318
+1605981305211,1071,Register_Success,200,OK,Thread Group 1-1,text,true,,3373,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,875,0,0
+1605981300871,2421,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8266,2644,5,5,null,2016,2991,185
+1605981305017,1356,Launch_Homepage,200,OK,Thread Group 1-5,text,true,,4693,569,5,5,https://demo.opencart.com/,1153,0,273
+1605981305367,1015,ClickOnRegister,200,OK,Thread Group 1-2,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,992,0,168
+1605981298104,2277,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,5275,1463,5,5,null,2042,6002,331
+1605981305531,1371,Launch_Homepage,200,OK,Thread Group 1-3,text,true,,4248,698,5,5,https://demo.opencart.com/,1165,0,255
+1605981306380,1128,Launch_Homepage1,200,OK,Thread Group 1-5,text,true,,4226,704,5,5,https://demo.opencart.com/,906,0,0
+1605981305015,2484,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,8919,1273,5,5,null,2059,10,273
+1605981306905,1098,Launch_Homepage1,200,OK,Thread Group 1-3,text,true,,4321,704,5,5,https://demo.opencart.com/,890,0,0
+1605981305528,2469,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8569,1402,5,5,null,2055,7,255
+1605981306285,2132,Navigating_Account_Page,200,OK,Thread Group 1-1,text,true,,4051,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1039,0,187
+1605981306285,1039,Navigating_Account_Page-0,302,Found,Thread Group 1-1,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1039,0,187
+1605981307326,1091,Navigating_Account_Page-1,200,OK,Thread Group 1-1,text,true,,3489,776,5,5,https://demo.opencart.com/index.php?route=account/login,887,0,0
+1605981306284,2132,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4051,1556,5,5,null,1039,1,187
+1605981308418,1239,Logout_1,200,OK,Thread Group 1-1,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1026,0,165
+1605981308725,1304,Register_form,200,OK,Thread Group 1-4,text,true,,4886,1936,5,5,https://demo.opencart.com/index.php?route=account/register,1096,0,156
+1605981309387,1273,Register_form,200,OK,Thread Group 1-2,text,true,,4830,1892,5,5,https://demo.opencart.com/index.php?route=account/register,1071,0,160
+1605981309661,1073,Logout_2,200,OK,Thread Group 1-1,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,868,0,0
+1605981308418,2312,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,6648,1558,5,5,null,1894,5,165
+1605981310030,1054,Register_Success,200,OK,Thread Group 1-4,text,true,,3368,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,852,0,0
+1605981305736,2358,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8254,2743,5,5,null,1948,2991,156
+1605981310511,1226,Register,200,OK,Thread Group 1-5,text,true,,4728,748,5,5,https://demo.opencart.com/index.php?route=account/register,1026,0,156
+1605981310662,1109,Register_Success,200,OK,Thread Group 1-2,text,true,,3373,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,900,0,0
+1605981306384,2382,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8203,2699,5,5,null,1971,3006,160
+1605981310742,1362,Launch_Homepage,200,OK,Thread Group 1-1,text,true,,4240,698,5,5,https://demo.opencart.com/,1160,0,269
+1605981311062,1230,Register,200,OK,Thread Group 1-3,text,true,,4744,748,5,5,https://demo.opencart.com/index.php?route=account/register,1022,0,158
+1605981311086,2079,Navigating_Account_Page,200,OK,Thread Group 1-4,text,true,,4051,1556,5,5,https://demo.opencart.com/index.php?route=account/login,992,0,156
+1605981311086,992,Navigating_Account_Page-0,302,Found,Thread Group 1-4,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,992,0,156
+1605981312078,1087,Navigating_Account_Page-1,200,OK,Thread Group 1-4,text,true,,3489,776,5,5,https://demo.opencart.com/index.php?route=account/login,876,0,0
+1605981311086,2079,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,4051,1556,5,5,null,992,1,156
+1605981312106,1106,Launch_Homepage1,200,OK,Thread Group 1-1,text,true,,4239,704,5,5,https://demo.opencart.com/,895,0,0
+1605981310735,2468,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8479,1402,5,5,null,2055,11,269
+1605981311773,2077,Navigating_Account_Page,200,OK,Thread Group 1-2,text,true,,4071,1556,5,5,https://demo.opencart.com/index.php?route=account/login,992,0,164
+1605981311773,992,Navigating_Account_Page-0,302,Found,Thread Group 1-2,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,992,0,164
+1605981312768,1082,Navigating_Account_Page-1,200,OK,Thread Group 1-2,text,true,,3509,776,5,5,https://demo.opencart.com/index.php?route=account/login,868,0,0
+1605981311772,2077,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4071,1556,5,5,null,992,2,164
+1605981313168,1243,Logout_1,200,OK,Thread Group 1-4,text,true,,3329,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1041,0,164
+1605981313852,1238,Logout_1,200,OK,Thread Group 1-2,text,true,,3329,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1032,0,156
+1605981314414,1079,Logout_2,200,OK,Thread Group 1-4,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,872,0,0
+1605981313167,2322,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,6653,1558,5,5,null,1913,6,164
+1605981314747,1007,ClickOnRegister,200,OK,Thread Group 1-5,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,983,0,166
+1605981307510,2233,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,5275,1463,5,5,null,2009,6012,322
+1605981315092,1068,Logout_2,200,OK,Thread Group 1-2,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,860,0,0
+1605981313852,2306,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,6653,1558,5,5,null,1892,4,156
+1605981315295,1034,ClickOnRegister,200,OK,Thread Group 1-3,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1017,0,184
+1605981308004,2264,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,5291,1463,5,5,null,2039,6062,342
+1605981315498,1342,Launch_Homepage,200,OK,Thread Group 1-4,text,true,,4240,698,5,5,https://demo.opencart.com/,1133,0,265
+1605981316216,1268,Register,200,OK,Thread Group 1-1,text,true,,4733,748,5,5,https://demo.opencart.com/index.php?route=account/register,1058,0,184
+1605981316164,1388,Launch_Homepage,200,OK,Thread Group 1-2,text,true,,4285,698,5,5,https://demo.opencart.com/,1175,0,283
+1605981316842,1077,Launch_Homepage1,200,OK,Thread Group 1-4,text,true,,4226,704,5,5,https://demo.opencart.com/,871,0,0
+1605981315496,2419,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8466,1402,5,5,null,2004,6,265
+1605981317553,1088,Launch_Homepage1,200,OK,Thread Group 1-2,text,true,,4234,704,5,5,https://demo.opencart.com/,884,0,0
+1605981316162,2476,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8519,1402,5,5,null,2059,5,283
+1605981318754,1370,Register_form,200,OK,Thread Group 1-5,text,true,,4860,1837,5,5,https://demo.opencart.com/index.php?route=account/register,1164,0,167
+1605981319336,1387,Register_form,200,OK,Thread Group 1-3,text,true,,4830,1936,5,5,https://demo.opencart.com/index.php?route=account/register,1176,0,168
+1605981320125,1084,Register_Success,200,OK,Thread Group 1-5,text,true,,3373,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,877,0,0
+1605981315756,2454,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,8233,2644,5,5,null,2041,3001,167
+1605981320472,1041,ClickOnRegister,200,OK,Thread Group 1-1,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1008,0,164
+1605981313215,2309,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5280,1463,5,5,null,2066,5990,348
+1605981320725,1223,Register_Success,200,OK,Thread Group 1-3,text,true,,3368,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,1016,0,0
+1605981316331,2610,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8198,2743,5,5,null,2192,3009,168
+1605981320912,1239,Register,200,OK,Thread Group 1-4,text,true,,4817,748,5,5,https://demo.opencart.com/index.php?route=account/register,1032,0,176
+1605981321650,1249,Register,200,OK,Thread Group 1-2,text,true,,4728,748,5,5,https://demo.opencart.com/index.php?route=account/register,1039,0,162
+1605981321213,2094,Navigating_Account_Page,200,OK,Thread Group 1-5,text,true,,4068,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1005,0,162
+1605981321213,1005,Navigating_Account_Page-0,302,Found,Thread Group 1-5,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1005,0,162
+1605981322219,1088,Navigating_Account_Page-1,200,OK,Thread Group 1-5,text,true,,3506,776,5,5,https://demo.opencart.com/index.php?route=account/login,879,0,0
+1605981321212,2094,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,4068,1556,5,5,null,1005,3,162
+1605981321952,2091,Navigating_Account_Page,200,OK,Thread Group 1-3,text,true,,4046,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1029,0,167
+1605981321952,1029,Navigating_Account_Page-0,302,Found,Thread Group 1-3,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1029,0,167
+1605981322982,1061,Navigating_Account_Page-1,200,OK,Thread Group 1-3,text,true,,3484,776,5,5,https://demo.opencart.com/index.php?route=account/login,858,0,0
+1605981321951,2091,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4046,1556,5,5,null,1029,3,167
+1605981323311,1221,Logout_1,200,OK,Thread Group 1-5,text,true,,3367,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1027,0,161
+1605981324046,1231,Logout_1,200,OK,Thread Group 1-3,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1024,0,163
+1605981324535,1100,Logout_2,200,OK,Thread Group 1-5,text,true,,3329,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,891,0,0
+1605981323310,2321,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,6696,1558,5,5,null,1918,6,161
+1605981324514,1295,Register_form,200,OK,Thread Group 1-1,text,true,,4835,1892,5,5,https://demo.opencart.com/index.php?route=account/register,1091,0,165
+1605981325154,1086,ClickOnRegister,200,OK,Thread Group 1-4,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1059,0,176
+1605981317922,2325,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,5364,1463,5,5,null,2091,5994,352
+1605981325278,1085,Logout_2,200,OK,Thread Group 1-3,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,874,0,0
+1605981324045,2316,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,6648,1558,5,5,null,1898,4,163
+1605981325888,999,ClickOnRegister,200,OK,Thread Group 1-2,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,975,0,165
+1605981318643,2248,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,5275,1463,5,5,null,2014,5998,327
+1605981325811,1082,Register_Success,200,OK,Thread Group 1-1,text,true,,3373,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,876,0,0
+1605981321514,2377,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8208,2699,5,5,null,1967,3004,165
+1605981325637,1352,Launch_Homepage,200,OK,Thread Group 1-5,text,true,,4264,698,5,5,https://demo.opencart.com/,1137,0,260
+1605981326366,1411,Launch_Homepage,200,OK,Thread Group 1-3,text,true,,4231,698,5,5,https://demo.opencart.com/,1201,0,302
+1605981326992,1112,Launch_Homepage1,200,OK,Thread Group 1-5,text,true,,4226,704,5,5,https://demo.opencart.com/,902,0,0
+1605981325636,2464,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,8490,1402,5,5,null,2039,6,260
+1605981327779,1080,Launch_Homepage1,200,OK,Thread Group 1-3,text,true,,4226,704,5,5,https://demo.opencart.com/,877,0,0
+1605981326364,2491,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8457,1402,5,5,null,2078,6,302
+1605981326895,2088,Navigating_Account_Page,200,OK,Thread Group 1-1,text,true,,4051,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1009,0,163
+1605981326895,1009,Navigating_Account_Page-0,302,Found,Thread Group 1-1,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1009,0,163
+1605981327905,1078,Navigating_Account_Page-1,200,OK,Thread Group 1-1,text,true,,3489,776,5,5,https://demo.opencart.com/index.php?route=account/login,870,0,0
+1605981326895,2088,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4051,1556,5,5,null,1009,2,163
+1605981328987,1366,Logout_1,200,OK,Thread Group 1-1,text,true,,3372,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1164,0,195
+1605981329250,1465,Register_form,200,OK,Thread Group 1-4,text,true,,4862,1837,5,5,https://demo.opencart.com/index.php?route=account/register,1255,0,314
+1605981329892,1351,Register_form,200,OK,Thread Group 1-2,text,true,,4796,1837,5,5,https://demo.opencart.com/index.php?route=account/register,1125,0,175
+1605981330359,1083,Logout_2,200,OK,Thread Group 1-1,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,871,0,0
+1605981328986,2449,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,6696,1558,5,5,null,2035,7,195
+1605981330718,1053,Register_Success,200,OK,Thread Group 1-4,text,true,,3368,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,848,0,0
+1605981326241,2518,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8230,2644,5,5,null,2103,3013,314
+1605981331246,1083,Register_Success,200,OK,Thread Group 1-2,text,true,,3399,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,879,0,0
+1605981326889,2434,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8195,2644,5,5,null,2004,3007,175
+1605981331097,1326,Register,200,OK,Thread Group 1-5,text,true,,4728,748,5,5,https://demo.opencart.com/index.php?route=account/register,1123,0,171
+1605981331445,1385,Launch_Homepage,200,OK,Thread Group 1-1,text,true,,4231,698,5,5,https://demo.opencart.com/,1176,0,271
+1605981331863,1228,Register,200,OK,Thread Group 1-3,text,true,,4782,748,5,5,https://demo.opencart.com/index.php?route=account/register,1028,0,163
+1605981331774,2092,Navigating_Account_Page,200,OK,Thread Group 1-4,text,true,,4046,1556,5,5,https://demo.opencart.com/index.php?route=account/login,999,0,163
+1605981331774,999,Navigating_Account_Page-0,302,Found,Thread Group 1-4,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,999,0,163
+1605981332774,1092,Navigating_Account_Page-1,200,OK,Thread Group 1-4,text,true,,3484,776,5,5,https://demo.opencart.com/index.php?route=account/login,880,0,0
+1605981331773,2092,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,4046,1556,5,5,null,999,2,163
+1605981332833,1108,Launch_Homepage1,200,OK,Thread Group 1-1,text,true,,4226,704,5,5,https://demo.opencart.com/,905,0,0
+1605981331444,2493,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8457,1402,5,5,null,2081,5,271
+1605981332332,2310,Navigating_Account_Page,200,OK,Thread Group 1-2,text,true,,4062,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1014,0,163
+1605981332332,1014,Navigating_Account_Page-0,302,Found,Thread Group 1-2,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1014,0,163
+1605981333347,1295,Navigating_Account_Page-1,200,OK,Thread Group 1-2,text,true,,3500,776,5,5,https://demo.opencart.com/index.php?route=account/login,853,0,0
+1605981332332,2310,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4062,1556,5,5,null,1014,2,163
+1605981333868,1350,Logout_1,200,OK,Thread Group 1-4,text,true,,3352,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1037,0,163
+1605981334646,1492,Logout_1,200,OK,Thread Group 1-2,text,true,,3329,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1211,0,261
+1605981335220,1247,Logout_2,200,OK,Thread Group 1-4,text,true,,3367,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,918,0,0
+1605981333867,2597,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,6719,1558,5,5,null,1955,6,163
+1605981335412,1343,ClickOnRegister,200,OK,Thread Group 1-5,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1343,0,445
+1605981328107,2669,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,5275,1463,5,5,null,2466,5980,616
+1605981336140,1227,Logout_2,200,OK,Thread Group 1-2,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,952,0,0
+1605981334645,2719,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,6653,1558,5,5,null,2163,6,261
+1605981336086,1282,ClickOnRegister,200,OK,Thread Group 1-3,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1282,0,383
+1605981328861,2510,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,5329,1463,5,5,null,2310,5999,546
+1605981336471,2124,Launch_Homepage,200,OK,Thread Group 1-4,text,true,,4253,698,5,5,https://demo.opencart.com/,1842,0,896
+1605981336945,1653,Register,200,OK,Thread Group 1-1,text,true,,4754,748,5,5,https://demo.opencart.com/index.php?route=account/register,1418,0,507
+1605981337372,1724,Launch_Homepage,200,OK,Thread Group 1-2,text,true,,4226,698,5,5,https://demo.opencart.com/,1513,0,611
+1605981338597,1329,Launch_Homepage1,200,OK,Thread Group 1-4,text,true,,4274,704,5,5,https://demo.opencart.com/,1129,0,214
+1605981336469,3453,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8527,1402,5,5,null,2971,5,1110
+1605981339099,1125,Launch_Homepage1,200,OK,Thread Group 1-2,text,true,,4231,704,5,5,https://demo.opencart.com/,925,0,0
+1605981337370,2849,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8457,1402,5,5,null,2438,6,611
+1605981339744,1284,Register_form,200,OK,Thread Group 1-5,text,true,,4835,1837,5,5,https://demo.opencart.com/index.php?route=account/register,1080,0,160
+1605981340372,1315,Register_form,200,OK,Thread Group 1-3,text,true,,4876,1826,5,5,https://demo.opencart.com/index.php?route=account/register,1102,0,170
+1605981341031,1065,Register_Success,200,OK,Thread Group 1-5,text,true,,3412,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,856,0,0
+1605981336757,2349,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,8247,2644,5,5,null,1936,2990,160
+1605981341593,1022,ClickOnRegister,200,OK,Thread Group 1-1,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1005,0,168
+1605981333943,2675,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5301,1463,5,5,null,2423,5998,675
+1605981341688,1076,Register_Success,200,OK,Thread Group 1-3,text,true,,3368,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,868,0,0
+1605981337370,2391,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8244,2633,5,5,null,1970,3003,170
+1605981342919,1266,Register,200,OK,Thread Group 1-4,text,true,,4733,748,5,5,https://demo.opencart.com/index.php?route=account/register,1049,0,164
+1605981342099,2089,Navigating_Account_Page,200,OK,Thread Group 1-5,text,true,,4046,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1025,0,166
+1605981342099,1025,Navigating_Account_Page-0,302,Found,Thread Group 1-5,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1025,0,166
+1605981343124,1064,Navigating_Account_Page-1,200,OK,Thread Group 1-5,text,true,,3484,776,5,5,https://demo.opencart.com/index.php?route=account/login,860,0,0
+1605981342098,2089,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,4046,1556,5,5,null,1025,2,166
+1605981343216,1247,Register,200,OK,Thread Group 1-2,text,true,,4728,748,5,5,https://demo.opencart.com/index.php?route=account/register,1051,0,178
+1605981342767,2081,Navigating_Account_Page,200,OK,Thread Group 1-3,text,true,,4082,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1018,0,161
+1605981342767,1018,Navigating_Account_Page-0,302,Found,Thread Group 1-3,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1018,0,161
+1605981343786,1062,Navigating_Account_Page-1,200,OK,Thread Group 1-3,text,true,,3520,776,5,5,https://demo.opencart.com/index.php?route=account/login,857,0,0
+1605981342766,2081,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4082,1556,5,5,null,1018,2,161
+1605981344190,1230,Logout_1,200,OK,Thread Group 1-5,text,true,,3341,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1026,0,161
+1605981344850,1305,Logout_1,200,OK,Thread Group 1-3,text,true,,3375,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1099,0,248
+1605981345422,1092,Logout_2,200,OK,Thread Group 1-5,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,891,0,0
+1605981344189,2322,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,6665,1558,5,5,null,1917,5,161
+1605981345608,1341,Register_form,200,OK,Thread Group 1-1,text,true,,4861,1826,5,5,https://demo.opencart.com/index.php?route=account/register,1101,0,167
+1605981346156,1084,Logout_2,200,OK,Thread Group 1-3,text,true,,3362,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,874,0,0
+1605981344849,2389,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,6737,1558,5,5,null,1973,4,248
+1605981346516,1357,Launch_Homepage,200,OK,Thread Group 1-5,text,true,,4298,698,5,5,https://demo.opencart.com/,1146,0,236
+1605981346949,1060,Register_Success,200,OK,Thread Group 1-1,text,true,,3373,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,858,0,0
+1605981342617,2401,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8234,2633,5,5,null,1959,2993,167
+1605981347185,1028,ClickOnRegister,200,OK,Thread Group 1-4,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,994,0,157
+1605981339928,2294,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,5280,1463,5,5,null,2043,5991,321
+1605981347464,1023,ClickOnRegister,200,OK,Thread Group 1-2,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1001,0,161
+1605981340227,2270,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,5275,1463,5,5,null,2052,5991,339
+1605981347242,1325,Launch_Homepage,200,OK,Thread Group 1-3,text,true,,4259,698,5,5,https://demo.opencart.com/,1121,0,246
+1605981347877,1086,Launch_Homepage1,200,OK,Thread Group 1-5,text,true,,4270,704,5,5,https://demo.opencart.com/,875,0,0
+1605981346515,2443,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,8568,1402,5,5,null,2021,6,236
+1605981348568,1096,Launch_Homepage1,200,OK,Thread Group 1-3,text,true,,4296,704,5,5,https://demo.opencart.com/,885,0,0
+1605981347241,2421,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8555,1402,5,5,null,2006,4,246
+1605981348011,2081,Navigating_Account_Page,200,OK,Thread Group 1-1,text,true,,4089,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1004,0,158
+1605981348011,1004,Navigating_Account_Page-0,302,Found,Thread Group 1-1,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1004,0,158
+1605981349016,1076,Navigating_Account_Page-1,200,OK,Thread Group 1-1,text,true,,3527,776,5,5,https://demo.opencart.com/index.php?route=account/login,867,0,0
+1605981348010,2081,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4089,1556,5,5,null,1004,2,158
+1605981350094,1224,Logout_1,200,OK,Thread Group 1-1,text,true,,3358,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1020,0,161
+1605981351321,1050,Logout_2,200,OK,Thread Group 1-1,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,844,0,0
+1605981350093,2274,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,6682,1558,5,5,null,1864,5,161
+1605981351220,1289,Register_form,200,OK,Thread Group 1-4,text,true,,4869,1892,5,5,https://demo.opencart.com/index.php?route=account/register,1085,0,170
+1605981351488,1281,Register_form,200,OK,Thread Group 1-2,text,true,,4919,1892,5,5,https://demo.opencart.com/index.php?route=account/register,1078,0,162
+1605981351954,1230,Register,200,OK,Thread Group 1-5,text,true,,4733,748,5,5,https://demo.opencart.com/index.php?route=account/register,1024,0,168
+1605981352511,1068,Register_Success,200,OK,Thread Group 1-4,text,true,,3368,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,857,0,0
+1605981348213,2357,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8237,2699,5,5,null,1942,3010,170
+1605981352374,1378,Launch_Homepage,200,OK,Thread Group 1-1,text,true,,4323,698,5,5,https://demo.opencart.com/,1171,0,272
+1605981352771,1073,Register_Success,200,OK,Thread Group 1-2,text,true,,3373,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,871,0,0
+1605981348488,2354,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8292,2699,5,5,null,1949,3003,162
+1605981352666,1272,Register,200,OK,Thread Group 1-3,text,true,,4728,748,5,5,https://demo.opencart.com/index.php?route=account/register,1063,0,163
+1605981353755,1129,Launch_Homepage1,200,OK,Thread Group 1-1,text,true,,4253,704,5,5,https://demo.opencart.com/,921,0,0
+1605981352372,2507,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8576,1402,5,5,null,2092,6,272
+1605981353581,2087,Navigating_Account_Page,200,OK,Thread Group 1-4,text,true,,4062,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1022,0,166
+1605981353581,1022,Navigating_Account_Page-0,302,Found,Thread Group 1-4,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1022,0,166
+1605981354604,1064,Navigating_Account_Page-1,200,OK,Thread Group 1-4,text,true,,3500,776,5,5,https://demo.opencart.com/index.php?route=account/login,858,0,0
+1605981353581,2087,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,4062,1556,5,5,null,1022,2,166
+1605981353846,2087,Navigating_Account_Page,200,OK,Thread Group 1-2,text,true,,4046,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1012,0,163
+1605981353846,1012,Navigating_Account_Page-0,302,Found,Thread Group 1-2,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1012,0,163
+1605981354859,1074,Navigating_Account_Page-1,200,OK,Thread Group 1-2,text,true,,3484,776,5,5,https://demo.opencart.com/index.php?route=account/login,866,0,0
+1605981353845,2087,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4046,1556,5,5,null,1012,3,163
+1605981355672,1234,Logout_1,200,OK,Thread Group 1-4,text,true,,3347,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1023,0,159
+1605981355937,1232,Logout_1,200,OK,Thread Group 1-2,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1031,0,169
+1605981356172,1004,ClickOnRegister,200,OK,Thread Group 1-5,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,987,0,158
+1605981348964,2234,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,5280,1463,5,5,null,2011,5977,326
+1605981356938,1003,ClickOnRegister,200,OK,Thread Group 1-3,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,978,0,152
+1605981349666,2275,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,5275,1463,5,5,null,2041,6000,315
+1605981356907,1082,Logout_2,200,OK,Thread Group 1-4,text,true,,3352,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,872,0,0
+1605981355672,2316,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,6699,1558,5,5,null,1895,3,159
+1605981357171,1084,Logout_2,200,OK,Thread Group 1-2,text,true,,3367,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,872,0,0
+1605981355936,2316,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,6691,1558,5,5,null,1903,4,169
+1605981357888,1229,Register,200,OK,Thread Group 1-1,text,true,,4728,748,5,5,https://demo.opencart.com/index.php?route=account/register,1021,0,161
+1605981357994,1331,Launch_Homepage,200,OK,Thread Group 1-4,text,true,,4226,698,5,5,https://demo.opencart.com/,1124,0,252
+1605981358257,1356,Launch_Homepage,200,OK,Thread Group 1-2,text,true,,4226,698,5,5,https://demo.opencart.com/,1148,0,245
+1605981359325,1096,Launch_Homepage1,200,OK,Thread Group 1-4,text,true,,4259,704,5,5,https://demo.opencart.com/,887,0,0
+1605981357991,2427,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8485,1402,5,5,null,2011,5,252
+1605981359614,1087,Launch_Homepage1,200,OK,Thread Group 1-2,text,true,,4226,704,5,5,https://demo.opencart.com/,880,0,0
+1605981358256,2443,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8452,1402,5,5,null,2028,2,245
+1605981360177,1330,Register_form,200,OK,Thread Group 1-5,text,true,,4855,1914,5,5,https://demo.opencart.com/index.php?route=account/register,1266,0,165
+1605981360937,1303,Register_form,200,OK,Thread Group 1-3,text,true,,4898,1837,5,5,https://demo.opencart.com/index.php?route=account/register,1091,0,164
+1605981361507,1061,Register_Success,200,OK,Thread Group 1-5,text,true,,3368,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,857,0,0
+1605981357177,2391,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,8223,2721,5,5,null,2123,3002,165
+1605981362117,1043,ClickOnRegister,200,OK,Thread Group 1-1,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1025,0,156
+1605981354885,2272,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5275,1463,5,5,null,2046,6004,317
+1605981362240,1106,Register_Success,200,OK,Thread Group 1-3,text,true,,3368,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,888,0,0
+1605981357943,2409,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8266,2644,5,5,null,1979,2996,164
+1605981362570,2076,Navigating_Account_Page,200,OK,Thread Group 1-5,text,true,,4051,1556,5,5,https://demo.opencart.com/index.php?route=account/login,995,0,155
+1605981362570,995,Navigating_Account_Page-0,302,Found,Thread Group 1-5,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,995,0,155
+1605981363566,1080,Navigating_Account_Page-1,200,OK,Thread Group 1-5,text,true,,3489,776,5,5,https://demo.opencart.com/index.php?route=account/login,870,0,0
+1605981362569,2076,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,4051,1556,5,5,null,995,5,155
+1605981363420,1267,Register,200,OK,Thread Group 1-4,text,true,,4728,748,5,5,https://demo.opencart.com/index.php?route=account/register,1046,0,162
+1605981363701,1251,Register,200,OK,Thread Group 1-2,text,true,,4728,748,5,5,https://demo.opencart.com/index.php?route=account/register,1044,0,154
+1605981363348,2082,Navigating_Account_Page,200,OK,Thread Group 1-3,text,true,,4051,1556,5,5,https://demo.opencart.com/index.php?route=account/login,997,0,157
+1605981363348,997,Navigating_Account_Page-0,302,Found,Thread Group 1-3,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,997,0,157
+1605981364346,1084,Navigating_Account_Page-1,200,OK,Thread Group 1-3,text,true,,3489,776,5,5,https://demo.opencart.com/index.php?route=account/login,867,0,0
+1605981363347,2082,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4051,1556,5,5,null,997,2,157
+1605981364657,1233,Logout_1,200,OK,Thread Group 1-5,text,true,,3347,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1031,0,169
+1605981365432,1240,Logout_1,200,OK,Thread Group 1-3,text,true,,3352,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1030,0,162
+1605981365895,1065,Logout_2,200,OK,Thread Group 1-5,text,true,,3355,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,854,0,0
+1605981364656,2298,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,6702,1558,5,5,null,1885,6,169
+1605981366174,1327,Register_form,200,OK,Thread Group 1-1,text,true,,4830,1936,5,5,https://demo.opencart.com/index.php?route=account/register,1095,0,160
+1605981366673,1077,Logout_2,200,OK,Thread Group 1-3,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,869,0,0
+1605981365432,2317,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,6676,1558,5,5,null,1899,2,162
+1605981366962,1333,Launch_Homepage,200,OK,Thread Group 1-5,text,true,,4270,698,5,5,https://demo.opencart.com/,1127,0,241
+1605981367503,1099,Register_Success,200,OK,Thread Group 1-1,text,true,,3387,807,5,5,https://demo.opencart.com/index.php?route=account%2Fsuccess,891,0,0
+1605981363161,2426,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8217,2743,5,5,null,1986,3015,160
+1605981367689,1002,ClickOnRegister,200,OK,Thread Group 1-4,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,984,0,160
+1605981360422,2269,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,5275,1463,5,5,null,2030,5999,322
+1605981367954,1019,ClickOnRegister,200,OK,Thread Group 1-2,text,true,,547,715,5,5,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1003,0,168
+1605981360700,2270,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,5275,1463,5,5,null,2047,6002,322
+1605981367752,1553,Launch_Homepage,200,OK,Thread Group 1-3,text,true,,4187,698,5,5,https://demo.opencart.com/,1350,0,271
+1605981368297,1122,Launch_Homepage1,200,OK,Thread Group 1-5,text,true,,4226,704,5,5,https://demo.opencart.com/,912,0,0
+1605981366961,2455,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,8496,1402,5,5,null,2039,5,241
+1605981369307,1079,Launch_Homepage1,200,OK,Thread Group 1-3,text,true,,4199,704,5,5,https://demo.opencart.com/,874,0,0
+1605981367751,2632,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8386,1402,5,5,null,2224,4,271
+1605981368603,2123,Navigating_Account_Page,200,OK,Thread Group 1-1,text,true,,4072,1556,5,5,https://demo.opencart.com/index.php?route=account/login,1034,0,165
+1605981368603,1034,Navigating_Account_Page-0,302,Found,Thread Group 1-1,text,true,,562,780,5,5,https://demo.opencart.com/index.php?route=account%2Faccount,1034,0,165
+1605981369638,1088,Navigating_Account_Page-1,200,OK,Thread Group 1-1,text,true,,3510,776,5,5,https://demo.opencart.com/index.php?route=account/login,873,0,0
+1605981368603,2123,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4072,1556,5,5,null,1034,0,165
+1605981370726,1230,Logout_1,200,OK,Thread Group 1-1,text,true,,3367,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,1028,0,162
+1605981371957,1056,Logout_2,200,OK,Thread Group 1-1,text,true,,3324,779,5,5,https://demo.opencart.com/index.php?route=account%2Flogout,850,0,0
+1605981370725,2286,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,6691,1558,5,5,null,1878,2,162
+1605981371691,1334,Register_form,200,OK,Thread Group 1-4,text,true,,4915,1936,4,4,https://demo.opencart.com/index.php?route=account/register,1123,0,158
+1605981371972,1316,Register_form,200,OK,Thread Group 1-2,text,true,,4830,1925,4,4,https://demo.opencart.com/index.php?route=account/register,1103,0,165
+1605981372410,1231,Register,200,OK,Thread Group 1-5,text,true,,4728,748,4,4,https://demo.opencart.com/index.php?route=account/register,1022,0,159
+1605981373026,1086,Register_Success,200,OK,Thread Group 1-4,text,true,,3373,807,4,4,https://demo.opencart.com/index.php?route=account%2Fsuccess,875,0,0
+1605981368691,2420,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8288,2743,4,4,null,1998,3003,158
+1605981373288,1076,Register_Success,200,OK,Thread Group 1-2,text,true,,3398,807,4,4,https://demo.opencart.com/index.php?route=account%2Fsuccess,868,0,0
+1605981368974,2392,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8228,2732,4,4,null,1971,3000,165
+1605981373380,1269,Register,200,OK,Thread Group 1-3,text,true,,4724,748,4,4,https://demo.opencart.com/index.php?route=account/register,1064,0,179
+1605981374113,2183,Navigating_Account_Page,200,OK,Thread Group 1-4,text,true,,4046,1556,4,4,https://demo.opencart.com/index.php?route=account/login,1052,0,167
+1605981374113,1052,Navigating_Account_Page-0,302,Found,Thread Group 1-4,text,true,,562,780,4,4,https://demo.opencart.com/index.php?route=account%2Faccount,1052,0,167
+1605981375165,1131,Navigating_Account_Page-1,200,OK,Thread Group 1-4,text,true,,3484,776,4,4,https://demo.opencart.com/index.php?route=account/login,857,0,0
+1605981374113,2183,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,4046,1556,4,4,null,1052,1,167
+1605981374365,2113,Navigating_Account_Page,200,OK,Thread Group 1-2,text,true,,4073,1556,4,4,https://demo.opencart.com/index.php?route=account/login,1017,0,193
+1605981374365,1017,Navigating_Account_Page-0,302,Found,Thread Group 1-2,text,true,,562,780,4,4,https://demo.opencart.com/index.php?route=account%2Faccount,1017,0,193
+1605981375384,1094,Navigating_Account_Page-1,200,OK,Thread Group 1-2,text,true,,3511,776,4,4,https://demo.opencart.com/index.php?route=account/login,886,0,0
+1605981374365,2113,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,4073,1556,4,4,null,1017,-1,193
+1605981376298,1217,Logout_1,200,OK,Thread Group 1-4,text,true,,3341,779,4,4,https://demo.opencart.com/index.php?route=account%2Flogout,1015,0,160
+1605981376648,1054,ClickOnRegister,200,OK,Thread Group 1-5,text,true,,542,715,4,4,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,1054,0,164
+1605981369421,2285,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,5270,1463,4,4,null,2076,5997,323
+1605981376479,1246,Logout_1,200,OK,Thread Group 1-2,text,true,,3329,779,4,4,https://demo.opencart.com/index.php?route=account%2Flogout,1044,0,162
+1605981377517,1094,Logout_2,200,OK,Thread Group 1-4,text,true,,3355,779,4,4,https://demo.opencart.com/index.php?route=account%2Flogout,878,0,0
+1605981376298,2311,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,6696,1558,4,4,null,1893,2,160
+1605981377648,989,ClickOnRegister,200,OK,Thread Group 1-3,text,true,,547,715,4,4,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,971,0,161
+1605981370386,2258,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,5271,1463,4,4,null,2035,5993,340
+1605981377728,1056,Logout_2,200,OK,Thread Group 1-2,text,true,,3362,779,4,4,https://demo.opencart.com/index.php?route=account%2Flogout,852,0,0
+1605981376479,2302,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,6691,1558,4,4,null,1896,4,162
+1605981378613,1358,Launch_Homepage,200,OK,Thread Group 1-4,text,true,,4226,698,3,3,https://demo.opencart.com/,1155,0,253
+1605981379972,1108,Launch_Homepage1,200,OK,Thread Group 1-4,text,true,,4226,704,3,3,https://demo.opencart.com/,898,0,0
+1605981378612,2466,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8452,1402,3,3,null,2053,3,253
+1605981380695,1314,Register_form,200,OK,Thread Group 1-5,text,true,,4869,1837,3,3,https://demo.opencart.com/index.php?route=account/register,1099,0,170
+1605981381639,1274,Register_form,200,OK,Thread Group 1-3,text,true,,4835,1914,3,3,https://demo.opencart.com/index.php?route=account/register,1070,0,156
+1605981382011,1053,Register_Success,200,OK,Thread Group 1-5,text,true,,3373,807,3,3,https://demo.opencart.com/index.php?route=account%2Fsuccess,852,0,0
+1605981377703,2367,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,8242,2644,3,3,null,1951,2995,170
+1605981382915,1084,Register_Success,200,OK,Thread Group 1-3,text,true,,3373,807,3,3,https://demo.opencart.com/index.php?route=account%2Fsuccess,873,0,0
+1605981378638,2358,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8208,2721,3,3,null,1943,3004,156
+1605981383066,2126,Navigating_Account_Page,200,OK,Thread Group 1-5,text,true,,4046,1556,3,3,https://demo.opencart.com/index.php?route=account/login,1038,0,159
+1605981383066,1038,Navigating_Account_Page-0,302,Found,Thread Group 1-5,text,true,,562,780,3,3,https://demo.opencart.com/index.php?route=account%2Faccount,1038,0,159
+1605981384105,1087,Navigating_Account_Page-1,200,OK,Thread Group 1-5,text,true,,3484,776,3,3,https://demo.opencart.com/index.php?route=account/login,877,0,0
+1605981383065,2126,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,4046,1556,3,3,null,1038,2,159
+1605981384094,1319,Register,200,OK,Thread Group 1-4,text,true,,4728,748,3,3,https://demo.opencart.com/index.php?route=account/register,1112,0,187
+1605981384001,2153,Navigating_Account_Page,200,OK,Thread Group 1-3,text,true,,4088,1556,3,3,https://demo.opencart.com/index.php?route=account/login,1059,0,176
+1605981384001,1059,Navigating_Account_Page-0,302,Found,Thread Group 1-3,text,true,,562,780,3,3,https://demo.opencart.com/index.php?route=account%2Faccount,1059,0,176
+1605981385061,1093,Navigating_Account_Page-1,200,OK,Thread Group 1-3,text,true,,3526,776,3,3,https://demo.opencart.com/index.php?route=account/login,878,0,0
+1605981384000,2153,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,4088,1556,3,3,null,1059,1,176
+1605981385193,1279,Logout_1,200,OK,Thread Group 1-5,text,true,,3329,779,3,3,https://demo.opencart.com/index.php?route=account%2Flogout,1072,0,158
+1605981386154,1236,Logout_1,200,OK,Thread Group 1-3,text,true,,3324,779,3,3,https://demo.opencart.com/index.php?route=account%2Flogout,1026,0,158
+1605981386472,1088,Logout_2,200,OK,Thread Group 1-5,text,true,,3360,779,3,3,https://demo.opencart.com/index.php?route=account%2Flogout,872,0,0
+1605981385193,2367,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,6689,1558,3,3,null,1944,1,158
+1605981387391,1076,Logout_2,200,OK,Thread Group 1-3,text,true,,3329,779,3,3,https://demo.opencart.com/index.php?route=account%2Flogout,864,0,0
+1605981386153,2312,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,6653,1558,3,3,null,1890,3,158
+1605981387561,1356,Launch_Homepage,200,OK,Thread Group 1-5,text,true,,4291,698,2,2,https://demo.opencart.com/,1149,0,249
+1605981388407,1018,ClickOnRegister,200,OK,Thread Group 1-4,text,true,,547,715,2,2,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,989,0,162
+1605981381081,2337,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,5275,1463,2,2,null,2101,6009,349
+1605981388919,1075,Launch_Homepage1,200,OK,Thread Group 1-5,text,true,,4269,704,2,2,https://demo.opencart.com/,875,0,0
+1605981387560,2431,Launch_URL,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,8560,1402,2,2,null,2024,5,249
+1605981392419,1311,Register_form,200,OK,Thread Group 1-4,text,true,,4835,1859,2,2,https://demo.opencart.com/index.php?route=account/register,1099,0,165
+1605981392997,1248,Register,200,OK,Thread Group 1-5,text,true,,4733,748,2,2,https://demo.opencart.com/index.php?route=account/register,1041,0,162
+1605981393734,1057,Register_Success,200,OK,Thread Group 1-4,text,true,,3368,807,2,2,https://demo.opencart.com/index.php?route=account%2Fsuccess,856,0,0
+1605981389426,2368,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8203,2666,2,2,null,1955,2997,165
+1605981394793,2069,Navigating_Account_Page,200,OK,Thread Group 1-4,text,true,,4067,1556,2,2,https://demo.opencart.com/index.php?route=account/login,1005,0,159
+1605981394793,1005,Navigating_Account_Page-0,302,Found,Thread Group 1-4,text,true,,562,780,2,2,https://demo.opencart.com/index.php?route=account%2Faccount,1005,0,159
+1605981395798,1064,Navigating_Account_Page-1,200,OK,Thread Group 1-4,text,true,,3505,776,2,2,https://demo.opencart.com/index.php?route=account/login,860,0,0
+1605981394792,2069,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,4067,1556,2,2,null,1005,3,159
+1605981396864,1110,Logout_1,200,OK,Thread Group 1-4,text,true,,3286,779,2,2,https://demo.opencart.com/index.php?route=account%2Flogout,1051,0,161
+1605981397234,1012,ClickOnRegister,200,OK,Thread Group 1-5,text,true,,547,715,2,2,https://demo.opencart.com/index.php?route=account%2Fregister%2Fcustomfield&customer_group_id=1,984,0,158
+1605981389996,2260,Select_Register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,5280,1463,2,2,null,2025,5991,320
+1605981397975,941,Logout_2,200,OK,Thread Group 1-4,text,true,,3286,779,2,2,https://demo.opencart.com/index.php?route=account%2Flogout,874,0,0
+1605981396863,2051,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,6572,1558,2,2,null,1925,4,161
+1605981401248,1347,Register_form,200,OK,Thread Group 1-5,text,true,,4823,1859,1,1,https://demo.opencart.com/index.php?route=account/register,1118,0,167
+1605981402597,1128,Register_Success,200,OK,Thread Group 1-5,text,true,,3354,807,1,1,https://demo.opencart.com/index.php?route=account%2Fsuccess,860,0,0
+1605981398247,2475,Account_register,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,8177,2666,1,1,null,1978,3003,167
+1605981403728,2759,Navigating_Account_Page,200,OK,Thread Group 1-5,text,true,,4068,1556,1,1,https://demo.opencart.com/index.php?route=account/login,1534,0,634
+1605981403728,1534,Navigating_Account_Page-0,302,Found,Thread Group 1-5,text,true,,562,780,1,1,https://demo.opencart.com/index.php?route=account%2Faccount,1534,0,634
+1605981405263,1224,Navigating_Account_Page-1,200,OK,Thread Group 1-5,text,true,,3506,776,1,1,https://demo.opencart.com/index.php?route=account/login,917,0,0
+1605981403727,2759,Navigating_AccountPage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,4068,1556,1,1,null,1534,2,634
+1605981406489,1411,Logout_1,200,OK,Thread Group 1-5,text,true,,3329,779,1,1,https://demo.opencart.com/index.php?route=account%2Flogout,1206,0,330
+1605981407903,1074,Logout_2,200,OK,Thread Group 1-5,text,true,,3324,779,1,1,https://demo.opencart.com/index.php?route=account%2Flogout,866,0,0
+1605981406488,2485,Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,6653,1558,1,1,null,2072,6,330
